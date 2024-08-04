@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Go Cart</string>
+    <string name="title_activity_manager">Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="google_maps_key">AIzaSyD_-WWgpw7jG6H9yfj3zR7mvJV9baKPVMQ</string>
+
+    <string-array name="item_categories">
+        <item>Vegetables &amp; Fruits</item>
+        <item>Dairy &amp; Breakfast</item>
+        <item>Cold Drinks
+&amp; Juices</item>
+        <item>Instant &amp;
+Frozen Food</item>
+        <item>Tea &amp;
+Coffee</item>
+        <item>Atta, Rice
+&amp; Dal</item>
+        <item>Masala, Oil
+&amp; Dry Fruits</item>
+        <item>Chicken,
+Meat &amp; Fish</item>
+        <item>Other</item>
+
+
+        <!-- Add more categories as needed -->
+    </string-array>
+</resources>

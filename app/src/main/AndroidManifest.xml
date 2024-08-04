@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoCart"
+        tools:targetApi="31">
+        <activity
+            android:name=".Predictor.Predictor"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard.Customer.SelectDistrict"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ChatBot.ChatBot"
+            android:exported="true" />
+        <activity
+            android:name=".Dashboard.Customer.FilterProduct"
+            android:exported="true" />
+        <activity
+            android:name=".Dashboard.Customer.CustomerLocation"
+            android:exported="false" />
+        <activity
+            android:name=".Stock.BestDealItem"
+            android:exported="false" />
+        <activity
+            android:name=".UserListView.Customer.Catagory.CategoryList.CatagoryCool"
+            android:exported="true" />
+        <activity
+            android:name=".UserListView.Customer.Catagory.CategoryList.CatagoryInstant"
+            android:exported="true" />
+        <activity
+            android:name=".UserListView.Customer.Catagory.CategoryList.CatagoryTea"
+            android:exported="true" />
+        <activity
+            android:name=".UserListView.Customer.Catagory.CategoryList.CatagoryMasala"
+            android:exported="true" />
+        <activity
+            android:name=".Catagory.CategoryList.CatagoryMilk"
+            android:exported="true" />
+        <activity
+            android:name=".Catagory.CategoryList.CatagoryRice"
+            android:exported="true" />
+        <activity
+            android:name=".Catagory.CategoryList.CatagoryWheat"
+            android:exported="true" />
+        <activity
+            android:name=".UserListView.Customer.Catagory.CategoryList.CategoryVeg"
+            android:exported="true" />
+        <activity
+            android:name=".UserListView.Customer.Catagory.CategoryList.CatagoryChicken"
+            android:exported="true" />
+        <activity
+            android:name=".UserListView.Customer.Catagory.CategoryList.CatagoryAtta"
+            android:exported="true" />
+        <activity
+            android:name=".UserListView.Customer.Catagory.CategoryList.CatagoryDairy"
+            android:exported="true" />
+        <activity
+            android:name=".UserListView.Customer.Catagory.CatagoryPage"
+            android:exported="true" />
+        <activity
+            android:name=".Dashboard.Retailer.RetailerDash"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".UserListView.Retailer.RetailerListOfRep"
+            android:exported="false" />
+        <activity
+            android:name=".UserListView.DeliveryRider.DeliveryRiderListOfRep"
+            android:exported="false" />
+        <activity
+            android:name=".Stock.ListOfStock"
+            android:exported="false" />
+        <activity
+            android:name=".Stock.AddItem"
+            android:exported="true" />
+        <activity
+            android:name=".Dashboard.Rep.RepDash"
+            android:exported="false" />
+        <activity
+            android:name=".UserListView.Customer.CustomerList"
+            android:exported="false" />
+        <activity
+            android:name=".UserListView.Retailer.RetailerList"
+            android:exported="false" />
+        <activity
+            android:name=".UserListView.DeliveryRider.DeliveryRiderList"
+            android:exported="false" />
+        <activity
+            android:name=".UserListView.Rep.DeliveryRepList"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD_-WWgpw7jG6H9yfj3zR7mvJV9baKPVMQ" />
+
+        <activity
+            android:name=".Authentication.RetailerAuth.RetailerMobileAuth"
+            android:exported="true" />
+        <activity
+            android:name=".Authentication.RetailerAuth.RetailerLogin"
+            android:exported="true" />
+        <activity
+            android:name=".RetailerAuth.RetailerRegister"
+            android:exported="false" />
+        <activity
+            android:name=".Authentication.CustomerAuth.CustomerLogin"
+            android:exported="true" />
+        <activity
+            android:name=".Authentication.UserSelect"
+            android:exported="true" />
+        <activity
+            android:name=".RetailShop.RetailShopOwnerDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Authentication.RetailerAuth.SetLocation"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeCreate.SelectLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserListView.Admin.AdminList"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".Authentication.RetailerAuth.RetailShopCreate"
+            android:exported="true" />
+        <activity
+            android:name=".Authentication.EmployeeCreate.DeliveryRiderCreate"
+            android:exported="true" />
+        <activity
+            android:name=".Authentication.EmployeeCreate.DeliveryRepCreate"
+            android:exported="true" />
+        <activity
+            android:name=".Authentication.EmployeeCreate.AdminCreate"
+            android:exported="true" />
+        <activity
+            android:name=".Dashboard.Admin.AdminDash"
+            android:exported="true" />
+        <activity
+            android:name=".Manager.AdminManage"
+            android:exported="false" />
+        <activity
+            android:name=".Authentication.UserLogin"
+            android:exported="true" />
+        <activity
+            android:name=".Authentication.CustomerAuth.CustomerMobileAuth"
+            android:exported="true" />
+        <activity
+            android:name=".Authentication.CustomerAuth.CustomerRegister"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".Dashboard.Customer.CustomerDash"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Onboadings.Onboading3"
+            android:exported="false" />
+        <activity
+            android:name=".Onboadings.Onboarding2"
+            android:exported="false" />
+        <activity
+            android:name=".Onboadings.Onboading1"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
